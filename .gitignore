@@ -1,0 +1,29 @@
+# Ambiente virtuale Python
+.venv/
+venv/
+
+# Cache e file compilati Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor
+.vscode/
+.idea/
+
+# File temporanei
+*.tmp
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Risultati generati automaticamente
+data/*.csv
+grafici/*.png
+documentazione/*.pdf
+
+# Mantiene le cartelle vuote nel repository
+!data/.gitkeep
+!grafici/.gitkeep
+!documentazione/.gitkeep
